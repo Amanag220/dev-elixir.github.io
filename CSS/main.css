@@ -5,5 +5,6 @@ body {
 .heading {
   font-family: sans-serif;
   font-weight: bold;
-  background-color: SeaGreen;
+  font-style: italic;
+  background-color: rgba(75, 33, 36, 0.5);
 }
