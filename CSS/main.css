@@ -1,16 +1,12 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-.heading {
-  font-family: sans-serif;
-  font-weight: bold;
-  font-style: italic;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration-style: wavy;
-  text-decoration-color: rgb(48, 22, 24);
-  font-size: 40px;
-  overflow: hidden;
-  background-color: rgba(75, 33, 36, 0.5);
+
+.header {
+  background-color: #323;
+}
+
+.list {
+  display: inline-block;
 }
