@@ -34,6 +34,7 @@ html, body {
   box-sizing: border-box;
   border: 2px solid #FFF;
   border-radius: 850px;
+  background-repeat: round;
   background-image: url("/images/confession.png");
   height: 380px;
   background-position: center;
@@ -51,6 +52,8 @@ h1 {
 }
 
 .button {
+  border: 1.5px ridge;
+  border-color: inherit;
   background-color: #14213D;
   color: #FFF;
   font-family: 'Amatic SC', cursive;
@@ -61,4 +64,21 @@ h1 {
 .btn {
   padding-top: 190px;
   text-align: center;
+}
+
+.list-a {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.list-a li {
+  display: inline-block;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 17.5px;
+  margin-right: 150px;
+  text-transform: uppercase;
 }
