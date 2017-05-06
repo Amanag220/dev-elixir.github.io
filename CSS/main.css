@@ -1,12 +1,64 @@
-* {
+html, body {
   margin: 0px;
   padding: 0px;
 }
 
 .header {
-  background-color: #323;
+  background-color: #FFF;
+}
+
+.container {
+  max-width: 2480px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .list {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.list li {
   display: inline-block;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 17.5px;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+
+.bg {
+  box-sizing: border-box;
+  border: 2px solid #FFF;
+  border-radius: 850px;
+  background-image: url("/images/confession.png");
+  height: 380px;
+  background-position: center;
+}
+
+h1 {
+    color: #FFF;
+    font-family: 'Ruda', sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button {
+  background-color: #14213D;
+  color: #FFF;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  padding: 14px;
+}
+
+.btn {
+  padding-top: 190px;
+  text-align: center;
 }
