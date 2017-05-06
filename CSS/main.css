@@ -10,5 +10,7 @@ body {
   text-transform: uppercase;
   text-decoration-style: wavy;
   text-decoration-color: rgb(48, 22, 24);
+  font-size: 40px;
+  overflow: hidden;
   background-color: rgba(75, 33, 36, 0.5);
 }
